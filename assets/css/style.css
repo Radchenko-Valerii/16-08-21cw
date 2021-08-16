@@ -1,0 +1,40 @@
+@import './reset.css';
+
+* {
+  box-sizing: border-box;
+}
+
+.test {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.cardWrapper {
+  border: 2px solid black;
+  width: 300px;
+  margin: 10px;
+}
+
+.imgWrapper {
+  width: inherit;
+  height: 300px;
+}
+
+.img {
+  display: block;
+  width: 100%;
+  height: inherit;
+  color: rgb(143, 38, 38);
+}
+
+.userCard {
+  text-align: center;
+}
+
+.cardName {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
